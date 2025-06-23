@@ -1,3 +1,12 @@
+// Encapsulation is the practice of hiding internal details of an object and exposing only what’s necessary.
+
+// It’s all about:
+
+// Protecting data
+
+// Controlling access
+
+// Reducing coupling
 class BankAccount {
   #balance = 0;
 

@@ -1,3 +1,10 @@
+// Polymorphism means “many forms.”
+// In OOP, it refers to the ability of different classes to define methods with the same name but different behavior.
+
+// 🧠 Why Use It?
+// Allows shared interfaces with custom behavior
+
+// Encourages extensibility and code reuse
 class Shape {
   getArea() {
     console.log("Shape area");
