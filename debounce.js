@@ -1,3 +1,7 @@
+// “Wait a bit after the last action before doing something.”
+
+// 💡 Use Case:
+// Typing in a search input — you don’t want to hit the server on every keystroke.
 function debounce(func, delay) {
   let timer;
   return function (...args) {
@@ -7,7 +11,6 @@ function debounce(func, delay) {
     }, delay);
   };
 }
-
 
 function searchQuery(value) {
   console.log("Searching for:", value);

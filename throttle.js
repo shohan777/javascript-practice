@@ -1,3 +1,7 @@
+// “Do the thing at most once every X ms.”
+
+// 💡 Use Case:
+// User is scrolling a page — you want to trigger something only every 300ms.
 function throttle(func, limit) {
   let lastCall = 0;
   return function (...args) {
@@ -8,7 +12,6 @@ function throttle(func, limit) {
     }
   };
 }
-
 
 function onScroll() {
   console.log("Scroll event triggered at", new Date().toISOString());

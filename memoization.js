@@ -1,3 +1,9 @@
+// Memoization is a technique to cache the results of expensive function calls, so if the same input happens again, the function doesn’t redo the work — it just returns the cached result.
+
+// 🔍 Why Use It?
+// Performance boost (especially in recursion, API calls, or complex calculations)
+
+// Avoid redundant work
 function memoizedFib() {
   const cache = {};
 
